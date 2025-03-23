@@ -1,0 +1,74 @@
+body{
+    font-family: "Roboto", serif;
+    color: aliceblue;
+    background-color: #121212;
+}
+a{
+    color: rgba(134, 134, 134, 0.726);
+}
+.princi{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+.perfil{
+    padding: 40px;
+}
+.info-complemen{
+    display: flex;
+    justify-content: start;
+    gap:15px;
+}
+.destaques{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+.destaques div{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.destaques p{
+    text-align: center;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+.nav div{
+    padding: 10px;
+}
+.nav div:hover{
+    border-top: 2px solid rgb(245, 244, 244); 
+}
+.feed{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    flex-wrap: wrap;
+}
+.img-redonda{
+    border-radius: 50%;
+}
+.bio p{
+    line-height: 5px;
+}
+.linha {
+    border-top: 2px solid rgba(255, 255, 255, 0.418);/* Linha na parte superior */
+    width: 100%;                 /* Largura total */
+    margin: 0px 0;               /* Espaçamento acima e abaixo */
+}
+.meu-botao{
+    border-radius: 10px;
+    height: 35px;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #302f2f86;
+    color:aliceblue;
+}
+.meu-botao:hover{
+    background-color: #1f1e1e86;
+
+}
